@@ -29,11 +29,13 @@
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "skipLibCheck": false, // Set to false to enable type checking for declaration files
+    
     "strict": false,
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
+    "skipLibCheck": true,
+    "target": "es2017",
     "moduleResolution": "node", // Changed to 'node' for standard module resolution
     "resolveJsonModule": true,
     "isolatedModules": true,

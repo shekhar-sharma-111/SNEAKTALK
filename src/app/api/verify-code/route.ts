@@ -12,7 +12,7 @@ export async function POST(request: Request) {
     await dbConnect();
     try {
         const { username, code } = await request.json()
-        VerifyQuerySchema.parse({verifyCode{ code }});
+        VerifyQuerySchema.parse({verifyCode:{ code }});
        
         const decodedUsername = decodeURIComponent(username)
 

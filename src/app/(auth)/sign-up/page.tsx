@@ -27,6 +27,7 @@ import { Form, FormField, FormItem, FormLabel, FormControl, FormMessage } from "
 import { Loader2 } from "lucide-react";
 import Link from "next/link";
 import { useDebounceCallback } from "usehooks-ts";
+import { z } from 'zod';
 
 const SignUpForm = () => {
   const router = useRouter();
@@ -182,7 +183,8 @@ const SignUpForm = () => {
     );
   } catch (error) {
     console.error("Error rendering SignUpForm:", error);
-    return <div>Error: {error.message}</div>;
+    // return <div>Error: {error.message}</div>;
+    return <div>Error: in signup page</div>;
   }
 };
 

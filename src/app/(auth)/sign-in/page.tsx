@@ -152,7 +152,7 @@ const SignInForm = () => {
       );
     } catch (error) {
       console.error("Error rendering SignUpForm:", error);
-      return <div>Error: {error.message}</div>;
+      return <div>Error: in sign in pape</div>;
     }
   };
 

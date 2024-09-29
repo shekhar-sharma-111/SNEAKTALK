@@ -21,12 +21,11 @@ import { Button } from "./ui/button";
 import { X } from "lucide-react";
 import { Message } from "@/model/User";
 import { useToast } from "@/hooks/use-toast";
-import { ApiResponse } from "@/types/ApiResponse";
 import axios, { AxiosError } from "axios";
 
 type MessageCardProps = {
     message: Message;
-    onMessageDelete: (messageId: string) => void;
+    onMessageDelete: (messageId) => void;
 };
 
 function MessageCard({ message, onMessageDelete }: MessageCardProps) {

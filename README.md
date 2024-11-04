@@ -1,3 +1,22 @@
+Sneaktalk an anonymous messaging appliction , user can register and create a public url to get messages or feedback anonymously .
+tech: NEXT js , MongoDB , NextAuth , Shadcn UI , typescript , tailwind etc.
+
+output:
+homepage:
+
+![Screenshot 2024-11-04 125859](https://github.com/user-attachments/assets/66e90db3-53d6-4f9e-9300-1680784380b5)
+
+signin:![Screenshot 2024-11-04 125934](https://github.com/user-attachments/assets/b8a8bfd6-d6aa-4844-b6b9-8b69184c5fbb)
+
+signup:
+![Screenshot 2024-11-04 130018](https://github.com/user-attachments/assets/b7d093cf-27c9-455e-8f9a-cd7ceeca2035)
+
+user dashboard:
+![Screenshot 2024-11-04 130113](https://github.com/user-attachments/assets/16e48d6a-2c44-4b05-8c27-104a9ee4e3ae)
+
+message sending page:![Screenshot 2024-11-04 130133](https://github.com/user-attachments/assets/5af0e33c-de19-419c-8283-d3e2154c75f8)
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
